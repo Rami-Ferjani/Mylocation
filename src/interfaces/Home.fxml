@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="216.0" style="-fx-background-color: #373737;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane layoutX="-3.0" layoutY="17.0" prefHeight="90.0" prefWidth="216.0" style="-fx-background-color: black;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label layoutX="34.0" layoutY="33.0" text="Nom de l'agence" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS" size="18.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutY="89.0" prefHeight="6.0" prefWidth="216.0" />
+               </children>
+            </Pane>
+            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="118.0" text="Accueil" textFill="#fcfcfc" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="118.0">
+               <font>
+                  <Font name="CMU Bright SemiBold" size="18.0" />
+               </font>
+               <graphic>
+                  <MaterialDesignIconView fill="WHITE" glyphName="HOME" size="18" text="" wrappingWidth="31.301475524902344" />
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="168.0" text="Les logements" textFill="#fcfcfc" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="168.0">
+               <font>
+                  <Font name="CMU Bright SemiBold" size="18.0" />
+               </font>
+               <graphic>
+                  <MaterialDesignIconView fill="WHITE" glyphName="HOME_MODERN" size="18" wrappingWidth="30.0" />
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="218.0" text="Les locataires" textFill="#fcfcfc" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="218.0">
+               <font>
+                  <Font name="CMU Bright SemiBold" size="18.0" />
+               </font>
+               <graphic>
+                  <MaterialDesignIconView fill="WHITE" glyphName="ACCOUNT_MULTIPLE" size="18" text="" wrappingWidth="30.0" />
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="268.0" text="Les locations" textFill="#fcfcfc" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="268.0">
+               <font>
+                  <Font name="CMU Bright SemiBold" size="18.0" />
+               </font>
+               <graphic>
+                  <MaterialDesignIconView fill="WHITE" glyphName="KEY_CHANGE" size="18" text="" wrappingWidth="30.0" />
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="318.0" text="Les contacts" textFill="#fcfcfc" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="318.0">
+               <font>
+                  <Font name="CMU Bright SemiBold" size="18.0" />
+               </font>
+               <graphic>
+                  <MaterialDesignIconView fill="WHITE" glyphName="CHECKBOX_MARKED_OUTLINE" size="18" wrappingWidth="31.301475524902344" />
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="368.0" text="Les factures" textFill="#fcfcfc" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="368.0">
+               <font>
+                  <Font name="CMU Bright SemiBold" size="18.0" />
+               </font>
+               <graphic>
+                  <MaterialDesignIconView fill="WHITE" glyphName="FILE_DOCUMENT" size="18" wrappingWidth="31.301475524902344" />
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="418.0" text="L'historique " textFill="#fcfcfc" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="418.0">
+               <font>
+                  <Font name="CMU Bright SemiBold" size="18.0" />
+               </font>
+               <graphic>
+                  <MaterialDesignIconView fill="WHITE" glyphName="HISTORY" size="18" wrappingWidth="31.301475524902344" />
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="260.0" layoutY="198.0" prefHeight="410.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="216.0" AnchorPane.rightAnchor="0.0" />
+      <Pane layoutX="216.0" layoutY="-30.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="410.0" AnchorPane.leftAnchor="216.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="66.0" fitWidth="116.0" layoutX="540.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="412.0" layoutY="35.0" text="Nom d'utilisateur" textFill="WHITE">
+               <font>
+                  <Font name="CMU Bright SemiBold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

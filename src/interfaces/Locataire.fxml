@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="415.0" prefWidth="684.0" styleClass="background" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="21.0" layoutY="40.0" text="Rechercher :">
+         <font>
+            <Font name="Apple SD GothicNeo ExtraBold" size="16.0" />
+         </font>
+      </Label>
+      <JFXTextField layoutX="110.0" layoutY="35.0" prefHeight="27.0" prefWidth="121.0" promptText="Identifiant" text="CIN" unFocusColor="#7294ac" />
+      <FontAwesomeIconView glyphName="SEARCH" layoutX="245.0" layoutY="55.0" size="16" text="" />
+      <JFXTextField layoutX="21.0" layoutY="92.0" prefHeight="27.0" prefWidth="231.0" promptText="Address" text="Nom&amp;Prenom" unFocusColor="#7294ac" />
+      <TableView layoutX="272.0" layoutY="40.0" prefHeight="357.0" prefWidth="398.0" AnchorPane.leftAnchor="272.0" AnchorPane.rightAnchor="14.0">
+        <columns>
+          <TableColumn prefWidth="53.0" text="ID" />
+          <TableColumn prefWidth="99.0" text="Nom&amp;Prenom" />
+            <TableColumn minWidth="0.0" prefWidth="57.0" text="CIN" />
+            <TableColumn minWidth="0.0" prefWidth="97.0" text="Date de naissance" />
+            <TableColumn prefWidth="92.0" text="Telaphone" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="14.0" layoutY="354.0" prefHeight="27.0" prefWidth="76.0" styleClass="buttons" text="Ajouter" />
+      <JFXButton layoutX="99.0" layoutY="354.0" prefHeight="27.0" prefWidth="76.0" styleClass="buttons" text="Modifier" />
+      <JFXButton layoutX="184.0" layoutY="354.0" prefHeight="27.0" prefWidth="76.0" styleClass="buttons" text="Supprimer" />
+      <JFXTextField layoutX="21.0" layoutY="223.0" prefHeight="27.0" prefWidth="231.0" promptText="Address" text="Numero de telephone" unFocusColor="#7294ac" />
+      <JFXDatePicker layoutX="21.0" layoutY="159.0" prefHeight="27.0" prefWidth="231.0" promptText="Date de naissance" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="415.0" prefWidth="684.0" styleClass="background" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="21.0" layoutY="19.0" text="Logement">
+         <font>
+            <Font name="Apple SD GothicNeo ExtraBold" size="16.0" />
+         </font>
+      </Label>
+      <JFXTextField layoutX="110.0" layoutY="14.0" prefHeight="27.0" prefWidth="121.0" promptText="Identifiant" text="Identifiant" unFocusColor="#7294ac" />
+      <FontAwesomeIconView glyphName="SEARCH" layoutX="245.0" layoutY="34.0" size="16" text="" />
+      <JFXTextField layoutX="86.0" layoutY="55.0" prefHeight="27.0" prefWidth="188.0" unFocusColor="#7294ac" AnchorPane.leftAnchor="86.0" />
+      <JFXButton layoutX="587.0" layoutY="359.0" prefHeight="27.0" prefWidth="76.0" styleClass="buttons" text="Ajouter" />
+      <JFXTextField layoutX="85.0" layoutY="142.0" prefHeight="27.0" prefWidth="188.0" unFocusColor="#7294ac" AnchorPane.leftAnchor="85.0" />
+      <ImageView fitHeight="248.0" fitWidth="367.0" layoutX="296.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXTextField layoutX="85.0" layoutY="98.0" prefHeight="27.0" prefWidth="188.0" unFocusColor="#7294ac" AnchorPane.leftAnchor="85.0" />
+      <Label layoutX="21.0" layoutY="54.0" prefHeight="17.0" prefWidth="56.0" text="Adress" textFill="#4f9cd7" AnchorPane.leftAnchor="8.0">
+         <font>
+            <Font name="Bangla MN Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="142.0" prefHeight="17.0" prefWidth="56.0" text="Type" textFill="#4f9cd7" AnchorPane.leftAnchor="8.0">
+         <font>
+            <Font name="Bangla MN Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="98.0" prefHeight="17.0" prefWidth="56.0" text="Loyer" textFill="#4f9cd7" AnchorPane.leftAnchor="8.0">
+         <font>
+            <Font name="Bangla MN Bold" size="13.0" />
+         </font>
+      </Label>
+      <JFXTextField layoutX="85.0" layoutY="182.0" prefHeight="27.0" prefWidth="188.0" unFocusColor="#7294ac" />
+      <Label layoutX="21.0" layoutY="181.0" prefHeight="17.0" prefWidth="56.0" text="Region" textFill="#4f9cd7" AnchorPane.leftAnchor="8.0">
+         <font>
+            <Font name="Bangla MN Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="234.0" text="Locataire">
+         <font>
+            <Font name="Apple SD GothicNeo ExtraBold" size="16.0" />
+         </font>
+      </Label>
+      <JFXTextField layoutX="110.0" layoutY="229.0" prefHeight="27.0" prefWidth="121.0" promptText="Identifiant" text="CIN" unFocusColor="#7294ac" />
+      <FontAwesomeIconView glyphName="SEARCH" layoutX="245.0" layoutY="249.0" size="16" text="" />
+      <JFXTextField layoutX="113.0" layoutY="271.0" prefHeight="27.0" prefWidth="162.0" unFocusColor="#7294ac" />
+      <JFXTextField layoutX="93.0" layoutY="359.0" prefHeight="27.0" prefWidth="188.0" unFocusColor="#7294ac" />
+      <JFXTextField layoutX="106.0" layoutY="313.0" prefHeight="27.0" prefWidth="170.0" unFocusColor="#7294ac" />
+      <Label layoutX="21.0" layoutY="269.0" prefHeight="30.0" prefWidth="108.0" text="Nom&amp;Prenom" textFill="#4f9cd7" AnchorPane.leftAnchor="8.0">
+         <font>
+            <Font name="Bangla MN Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="357.0" prefHeight="17.0" prefWidth="56.0" text="CIN" textFill="#4f9cd7" AnchorPane.leftAnchor="8.0">
+         <font>
+            <Font name="Bangla MN Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="313.0" prefHeight="30.0" prefWidth="83.0" text="Telephone" textFill="#4f9cd7" AnchorPane.leftAnchor="8.0">
+         <font>
+            <Font name="Bangla MN Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXDatePicker layoutX="315.0" layoutY="315.0" prefHeight="27.0" prefWidth="108.0" promptText="Date Debut" />
+      <JFXDatePicker layoutX="437.0" layoutY="315.0" prefHeight="27.0" prefWidth="108.0" promptText="Date Fin" />
+      <JFXTextField layoutX="554.0" layoutY="313.0" prefHeight="27.0" prefWidth="38.0" />
+      <Label layoutX="597.0" layoutY="314.0" prefHeight="17.0" prefWidth="56.0" text="mois" textFill="#4f9cd7">
+         <font>
+            <Font name="Bangla MN Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

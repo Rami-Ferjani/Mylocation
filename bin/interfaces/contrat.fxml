@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="415.0" prefWidth="684.0" styleClass="background" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <FontAwesomeIconView glyphName="SEARCH" layoutX="255.0" layoutY="52.0" size="16" />
+      <JFXTextField layoutX="28.0" layoutY="98.0" prefHeight="27.0" prefWidth="147.0" unFocusColor="#7294ac" />
+      <JFXComboBox layoutX="27.0" layoutY="33.0" prefHeight="27.0" prefWidth="206.0" promptText="Location" unFocusColor="#7294ac" />
+      <ImageView fitHeight="295.0" fitWidth="302.0" layoutX="368.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXTextField layoutX="197.0" layoutY="98.0" prefHeight="27.0" prefWidth="147.0" unFocusColor="#7294ac" />
+      <JFXTextField layoutX="28.0" layoutY="141.0" prefHeight="27.0" prefWidth="147.0" unFocusColor="#7294ac" />
+      <JFXTextField layoutX="197.0" layoutY="141.0" prefHeight="27.0" prefWidth="147.0" unFocusColor="#7294ac" />
+      <Label layoutX="28.0" layoutY="90.0" text="Locataire" textFill="#43aac9">
+         <font>
+            <Font name="Bodoni 72 Oldstyle Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="197.0" layoutY="90.0" text="Logement" textFill="#43aac9">
+         <font>
+            <Font name="Bodoni 72 Oldstyle Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="137.0" text="Address de logement" textFill="#43aac9">
+         <font>
+            <Font name="Bodoni 72 Oldstyle Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="137.0" text="Region" textFill="#43aac9">
+         <font>
+            <Font name="Bodoni 72 Oldstyle Bold" size="13.0" />
+         </font>
+      </Label>
+      <JFXTextField layoutX="25.0" layoutY="190.0" prefHeight="27.0" prefWidth="147.0" unFocusColor="#7294ac" />
+      <JFXTextField layoutX="194.0" layoutY="190.0" prefHeight="27.0" prefWidth="147.0" unFocusColor="#7294ac" />
+      <Label layoutX="25.0" layoutY="182.0" text="Type" textFill="#43aac9">
+         <font>
+            <Font name="Bodoni 72 Oldstyle Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="182.0" text="Loyer" textFill="#43aac9">
+         <font>
+            <Font name="Bodoni 72 Oldstyle Bold" size="13.0" />
+         </font>
+      </Label>
+      <JFXTextField layoutX="25.0" layoutY="240.0" prefHeight="27.0" prefWidth="147.0" unFocusColor="#7294ac" />
+      <JFXTextField layoutX="194.0" layoutY="240.0" prefHeight="27.0" prefWidth="147.0" unFocusColor="#7294ac" />
+      <Label layoutX="25.0" layoutY="232.0" text="Forfaitaire" textFill="#43aac9">
+         <font>
+            <Font name="Bodoni 72 Oldstyle Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="232.0" text="Mantant à payer" textFill="#43aac9">
+         <font>
+            <Font name="Bodoni 72 Oldstyle Bold" size="13.0" />
+         </font>
+      </Label>
+      <JFXTextField layoutX="25.0" layoutY="288.0" prefHeight="27.0" prefWidth="147.0" unFocusColor="#7294ac" />
+      <JFXTextField layoutX="194.0" layoutY="288.0" prefHeight="27.0" prefWidth="147.0" unFocusColor="#7294ac" />
+      <Label layoutX="25.0" layoutY="280.0" text="Date debut" textFill="#43aac9">
+         <font>
+            <Font name="Bodoni 72 Oldstyle Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="280.0" text="Date Fin" textFill="#43aac9">
+         <font>
+            <Font name="Bodoni 72 Oldstyle Bold" size="13.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="187.0" layoutY="357.0" prefHeight="36.0" prefWidth="273.0" styleClass="pink-btn" text="Imprimer">
+         <font>
+            <Font name="Bodoni 72 Oldstyle Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <FontAwesomeIconView fill="WHITE" glyphName="PRINT" layoutX="232.0" layoutY="381.0" size="18" text="" />
+   </children>
+</AnchorPane>
